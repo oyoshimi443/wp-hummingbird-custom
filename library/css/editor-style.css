@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+body#tinymce.mce-content-body{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 3%!important;
+	max-width: 728px;
+}
+.mce-content-body .editor-area {
+    margin: 0px 20px 0.5em 20px;
+    font-size:15px!important;
+    line-height:150%;
+}
+.mce-content-body p{
+	margin-bottom: 2em;
+	line-height: 1.75;
+}
+
+.wp-block {
+    max-width: 728px;
+}
+
+.editor-rich-text__tinymce.mce-content-body,
+.mce-content-body,
+.editor-block-list__block,
+.block-editor-block-list__block-edit,
+.wp-block {
+	font-family: "Lato", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.editor-post-title__input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lato", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+h2,
+h3 {
+	padding: 0.5em;
+	margin-top: 4%;
+}
+h2{
+	font-size: 140%;
+	background: #eee;
+}
+h3{
+	border-left: 3px solid;
+}
+ 
+.mce-content-body .editor-area {
+    margin: 0px 20px 0.5em 20px;
+    font-size:15px!important;
+    line-height:150%;
+}
+.mce-content-body p{
+	margin-bottom: 2em;
+}
+.mce-content-body ul{
+	list-style-type: disc!important;
+	padding-left: 2em!important;
+}
+.mce-content-body ol{
+	list-style-type: decimal!important;
+	padding-left: 2em!important;
+}
+.mce-content-body blockquote,
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border: 1px solid #ddd;
+	padding: 0.4em 1em;
+	margin: 0;
+}
+code, kbd, pre, samp {
+    font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+    font-size: 0.9em;
+    padding: 0.05em 0.4em;
+    border-radius: 3px;
+    background: #F6F6F6;
+    color: #444;
+}
+pre {
+	background: #444;
+    background: rgba(0, 0, 0, 0.7);
+    color: #f8f9fa!important;
+    font-size: 95%;
+    padding: 1.7em;
+    margin: 0.2em 0 2.2em;
+    border-radius: 5px;
+    
+    white-space: pre-wrap;
+}
