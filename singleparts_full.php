@@ -110,7 +110,6 @@ fjs.parentNode.insertBefore(js, fjs);
 </div>
 <?php endif; ?>
 
-<?php comments_template(); ?>
 
 </footer>
 </article>

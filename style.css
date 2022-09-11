@@ -3626,10 +3626,12 @@ POSTS & CONTENT STYLES
 @media only screen and (min-width: 768px) and (max-width: 1099px) {
   /*   グリッドシステム */
   .t-all {
-    float: left;
-    padding-right: 0.75em;
-    width: 100%;
-    padding-right: 0;
+/*    float: left;*/
+/*    padding-right: 0.75em;*/
+    width: 768px;
+/*    padding-right: 0;*/
+    margin-right: auto;
+    margin-left: auto;
   }
   .t-1of2 {
     float: left;
@@ -3829,13 +3831,15 @@ POSTS & CONTENT STYLES
     float: none;
   }
   .page-full #main {
-    width: 100%;
+    width: 66.18181818%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .page-full #main .article-footer,
   .page-full #main .np-post,
   .page-full #main .related-box,
   .page-full #main .authorbox {
-    max-width: 728px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
